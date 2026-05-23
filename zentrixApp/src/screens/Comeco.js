@@ -13,8 +13,13 @@ export function Comeco({ navigation }) {
   }, [navigation]);
 
   return (
-    <View className="flex-1 items-center justify-center bg-[#000]">
+    <View className="flex-1 items-center justify-center">
       
+      <Image 
+        source={require('../../assets/images/logo.png')} 
+        className="w-[40%]"
+        resizeMode="contain"
+      />
 
     </View>
   );

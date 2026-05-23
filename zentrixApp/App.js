@@ -3,11 +3,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { StatusBar } from 'expo-status-bar';
 
-import { useFonts,
-   Itim_200ExtraLight,
-    Itim_300Light, Itim_400Regular, 
-    Itim_500Medium, Itim_600SemiBold,
-    Itim_700Bold } from '@expo-google-fonts/itim';
+import { useFonts, Itim_400Regular } from '@expo-google-fonts/itim';
 
 import { Comeco } from './src/screens/Comeco';
 import { Login } from './src/screens/Login';
@@ -15,14 +11,7 @@ import { Login } from './src/screens/Login';
 const Stack = createNativeStackNavigator();
 
 export default function App() {
-  const [fontsLoaded] = useFonts({
-    Itim_200ExtraLight,
-    Itim_300Light,
-    Itim_400Regular,
-    Itim_500Medium,
-    Itim_600SemiBold,
-    Itim_700Bold,
-  });
+  const [fontsLoaded] = useFonts ({ Itim_400Regular });
 
   if (!fontsLoaded) {
     return null;
