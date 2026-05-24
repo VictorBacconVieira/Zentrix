@@ -16,8 +16,8 @@ export function Comeco({ navigation }) {
     <View className="flex-1 items-center justify-center">
       
       <Image 
-        source={require('../../assets/images/logo.png')} 
-        className="w-[40%]"
+        source={require('../../assets/images/icon-logo.png')} 
+        className="w-[100%]"
         resizeMode="contain"
       />
 

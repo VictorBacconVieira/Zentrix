@@ -7,6 +7,7 @@ import { useFonts, Itim_400Regular } from '@expo-google-fonts/itim';
 
 import { Comeco } from './src/screens/Comeco';
 import { Login } from './src/screens/Login';
+import {home} from './src/screens/home'
 
 const Stack = createNativeStackNavigator();
 
@@ -36,6 +37,7 @@ function AppContent() {
         <Stack.Screen name="Splash" component={Comeco} />
         <Stack.Screen name="Comeco" component={Comeco} />
         <Stack.Screen name="Login" component={Login} />
+        <Stack.Screen name="Home" component={home} />
       </Stack.Navigator>
 
       <StatusBar />

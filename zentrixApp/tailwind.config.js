@@ -11,6 +11,13 @@ module.exports = {
         'timMedium': 'Itim_500Medium',
         'timSemiBold': 'Itim_600SemiBold',
         'timBold': 'Itim_700Bold',
+      },
+      colors: {
+        'principal': '#274C77',
+        'secundaria': '#447199',
+        'detalhe': '#A3CEF1',
+        'fundo': '#EFF2F4',
+        'destaque': '#158AD8'
       }
     },
   },
